@@ -1,0 +1,9 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Nama : Nauval Khudzaifi Sutisna \nNIM : A11.2022.14655 \nAsal Sekolah : SMK Karya Guna 2 Bekasi" << endl;
+    return 0;
+}
