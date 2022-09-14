@@ -1,1 +1,22 @@
-cooming soon
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+    //integer
+    int x = 5000;
+    cout << "Hello Guyss!" << x;
+    printf("test");
+    //integer
+    int uang = 50;
+    float tinggi = 175.6;
+    string ukuran = "XLX";
+
+    cout << "\nUmr Saya: "<< uang;
+    cout << "\nTinggi Badan Saya: "<< tinggi;
+    cout << "\nUkuran Baju Saya: "<< ukuran;
+    return 0;
+}
+
