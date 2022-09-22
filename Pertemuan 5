@@ -1,1 +1,28 @@
-Cooming soon
+#include <iostream>
+#include <stdio.h>>
+
+using namespace std;
+
+int main()
+{
+    cout << "Tugas Mencari Luas Lingkaran" << endl;
+    cout << "Soal: " << endl;
+    cout << "Luas lingkaran dengan diameter 30cm adalah... (n=3,14)" << endl;
+    cout << "Pembahasan: " << endl;
+    cout << "Jari - jari = 1/2 x 30cm" << endl;
+    float a, b, c, jawaban;
+    a = 1;
+    b = 2;
+    c = 30;
+    jawaban = a / b * c;
+    cout << "Jari - jari= " << jawaban << endl;
+    //Rumus
+    cout << "Rumus Luas Lingkaran : Phi x r x r" << endl;
+    cout << "Luas lingkaran = 3,14 x 15 x 15" << endl;
+    float phi, r, hasil;
+    phi = 3.14;
+    r = 15;
+    hasil = phi * r * r;
+    cout << "Maka luas lingkaran = " << hasil << endl;
+    return 0;
+}
